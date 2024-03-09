@@ -1,0 +1,83 @@
+body
+{
+    font-family: "Lato", sans-serif;
+margin: 0;
+padding: 0;
+
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+
+
+}
+.navtop
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .seach
+ {
+    display: flex;
+    align-items: center;
+background-color: gray;
+padding: 10px 20px;
+border-radius: 10px;
+
+
+ }
+ .searchinput{
+     border: none;
+     background-color: transparent;
+
+ }
+ .searchinput::placeholder
+ {
+    color: lightgrey;
+ }
+ .limitedoffer
+ {
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+ }
+ 
+ .navbottom
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ .menuitem 
+ {
+    margin-right: 50px;
+ }
+ .slider{
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+    
+  background: url(https://images.unsplash.com/photo-1593000904207-7e529d2bb019?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+}
+ .sliderwrapper
+ 
+ {
+    display: flex;
+    width: 500vw;
+
+ }
+ .slideritem{
+    width: 100vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+
+ }
+ .slidertittle
+ {
+    position: absolute;
+    top: 0;
+    color: white;
+ }
